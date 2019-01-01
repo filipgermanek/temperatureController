@@ -13,6 +13,7 @@ This is a project for temperature adjustment and subscribing to the Adafruit fee
 Materials: Wemos board, , Micro USB cable, water heater, relay
 Wiring: You need to connect three wires from the wemos board to the relay. Connect 5v to v5, Di to D2 on the board and G to G.
 
+Connect each end of the heater to the relay. 
 
 ## 3.Installation
 
@@ -26,6 +27,8 @@ To do it follow these steps :
 3. Open the Boards Manager from Tools > Board menu and install the esp8266 platform
 
 Last step is creating Adafruit account if you dont have one yet. It can be done here: http://io.adafruit.com/
+
+
 
 ## 4.Interaction
 Wifi name, password as well as Adafruit feed name and key are hardcoded.
