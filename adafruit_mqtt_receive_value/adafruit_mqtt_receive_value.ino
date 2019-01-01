@@ -55,7 +55,7 @@ void setup() {
   delay(10);
   Serial.print(F("Connecting to "));
   Serial.println(WLAN_SSID);
-
+ pinMode(relayPin, OUTPUT);
   WiFi.begin(WLAN_SSID, WLAN_PASS);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
